@@ -1,0 +1,38 @@
+{
+  "homepage": "http://rishabhpandey7.github.io/label-tester",
+  "name": "tester",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@easypost/api": "^3.6.4",
+    "@material-ui/core": "^3.1.2",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "material-ui": "^0.20.2",
+    "merge": "^1.2.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-tap-event-plugin": "^3.0.3",
+    "sudo": "^1.0.3",
+    "sweetalert2": "^7.28.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
